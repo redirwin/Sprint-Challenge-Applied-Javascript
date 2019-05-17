@@ -3,7 +3,6 @@ class TabLink {
 
     // assign this.tab to the tab DOM reference
     this.tab = tab;
-    // console.log(this.tab);
 
     // Get the `data-tab` value from this.tab and store it here
     this.tabData = this.tab.dataset.tab;
@@ -25,8 +24,6 @@ class TabLink {
     this.cards = Array.from(this.cards).map(card => {
       return new TabCard(card);
     });
-
-    console.log(this.cards);
 
     // Add a click event that invokes this.selectTab
     this.tab.addEventListener('click', () => this.selectTab());
@@ -85,3 +82,8 @@ let tabs = document.querySelectorAll('.tab');
 tabs.forEach(tab => {
   return new TabLink(tab);
 });
+
+
+
+
+
