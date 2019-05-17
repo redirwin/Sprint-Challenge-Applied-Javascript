@@ -40,7 +40,7 @@ An event can be anything that happens on a web page, from clicks, to text input,
 
 3. What is an event listener?
 
-Event listeners are code that is attached to nodes and that listen for and respond to events on a page. Even listeners are set up to acknowledge a specific event, and then send that event to a handler function for a specific response.
+Event listeners are code that is attached to nodes and that listen for and respond to events on a page. Event listeners are set up to acknowledge a specific event, and then send that event to a handler function for a specific response.
 
 4. Why would we convert a NodeList into an Array?
 
@@ -48,7 +48,7 @@ A NodeList has one property (.length) and very few inherent methods. Converting 
 
 5. What is a component?
 
-A component is a portion of code that is succinct and reusable. Ideally, we should be able to use a component over and over again in other programs or area of our code, without having to recreate common functionality. It helps us stick to DRY programming.
+A component is a portion of code that is succinct and reusable. Ideally, we should be able to use a component over and over again in other programs or areas of our code, without having to recreate common functionality. It helps us stick to DRY programming.
 
 
 ### Git Set up
